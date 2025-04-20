@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Comment Abusivity Analyzer</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(p3.jpg);
+            background-size: cover;
+        
+        }
+
+        header {
+            
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+    list-style: none;
+    padding: 20;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 10px; 
+    width: 50px;
+    height: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none
+
+}
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            
+            border-radius: 5px;
+            box-shadow: 0 0 5px ;
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 25px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color:white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: large;
+            
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+        header {
+            
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff; 
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 800px;
+            margin-top:150px ;
+            padding: 20px;
+            font-size: large;
+            border-radius: 5px solid black;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 25px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color:white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: large;
+            
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>YouTube Comment Abusivity Analyzer</h1>
+        <nav>
+            <ul>
+                <li><a href="/team">Our Team</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="/analyze" method="post">
+            <label for="video_link">Enter the complete YouTube video link:</label>
+            <input type="text" name="video_link" required>
+            <button type="submit">Analyze</button>
+        </form>
+
+    </main>
+</body>
+</html>
