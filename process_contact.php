@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
     
     // Set your email address where you want to receive the messages
-    $to = "oursummerproject1@gmail.com";
+    $to = "email@gmail.com";
     $subject = "New Contact Form Submission from $name";
     $headers = "From: $email";
 
